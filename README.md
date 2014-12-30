@@ -4,22 +4,22 @@ This repo aim to collect all the source code for the group "Le antiche credenze"
 
 ## Member of the groups and roles:
 
-* Luca De Franceschi: [Linkedin, personal site here]
+1. Luca De Franceschi: [Linkedin, personal site here]
 	..* Configuration of working enviroment;
 	..* Configuration and maintenence of the styructure of the project;
 	..* Code of the **Perl/CGI** scripts;
 	..* Creation of template pages for the Perl/CGI scripts.
-* Michele Dal Santo: [Linkedin, personal site here]
+2. Michele Dal Santo: [Linkedin, personal site here]
 	..* Code of the CSS;
 	..* Code of **XHTML** for static pages.
-* Nicolò Tresoldi: [Linkedin, personal site here]
+3. Nicolò Tresoldi: [Linkedin, personal site here]
 	..* Creation of the **XML** structure for the database;
 	..* Cration of the **XMLSchema** linked to the XML files;
 	..* Test the accessibility of the public part of the site, following the **WCAG 2.0** directives;
 	..* Validation of the XHTML code following the W3C standards;
 	..* Validation of the XML code following the W3C standards;
 	..* Validation of the CSS code following the W3C standards.
-* Davide Quaglio: [Linkedin, personal site here]
+4. Davide Quaglio: [Linkedin, personal site here]
 	..* Creation of the **XHTML** pages for the private part of the site;
 	..* Test the accessibility of the private part of the site, following the **WCAG 2.0** directives;
 	..* Code of the **javascript** scripts.
@@ -62,6 +62,6 @@ Version: 1.0.1
 * The database must be based on xml;
 * The language for generating dynamic pages must be Perl;
 * The web site must provide at least three interactive operation:
-  ..* Input from users;
-  ..* Data extraction;
-  ..* Data manipulation.
+    * Input from users;
+    * Data extraction;
+    * Data manipulation.
