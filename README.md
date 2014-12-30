@@ -5,22 +5,22 @@ This repo aim to collect all the source code for the group "Le antiche credenze"
 
 ## Member of the groups and roles:
 
-* Luca De Franceschi: [Linkedin, personal site here]
+* Luca De Franceschi: <https://www.linkedin.com/pub/luca-de-franceschi/54/4b1/bb5>
 	* Configuration of working enviroment;
 	* Configuration and maintenence of the styructure of the project;
 	* Code of the **Perl/CGI** scripts;
 	* Creation of template pages for the Perl/CGI scripts.
-* Michele Dal Santo: [Linkedin, personal site here]
+* Michele Dal Santo: 
 	* Code of the CSS;
 	* Code of **XHTML** for static pages.
-* Nicolò Tresoldi: [Linkedin, personal site here]
+* Nicolò Tresoldi: <https://www.linkedin.com/pub/nicol%C3%B2-tresoldi/33/aba/738>
 	* Creation of the **XML** structure for the database;
 	* Cration of the **XMLSchema** linked to the XML files;
 	* Test the accessibility of the public part of the site, following the **WCAG 2.0** directives;
 	* Validation of the XHTML code following the W3C standards;
 	* Validation of the XML code following the W3C standards;
 	* Validation of the CSS code following the W3C standards.
-* Davide Quaglio: [Linkedin, personal site here]
+* Davide Quaglio: <https://www.linkedin.com/pub/davide-quaglio/96/341/241>
 	* Creation of the **XHTML** pages for the private part of the site;
 	* Test the accessibility of the private part of the site, following the **WCAG 2.0** directives;
 	* Code of the **javascript** scripts.
