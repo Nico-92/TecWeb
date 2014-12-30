@@ -1,30 +1,46 @@
-# AVVISO IMPORTANTE PER LA CONSEGNA
-Mr. Tresoldi sta verificando le pagine, se, rispetto al commit "bla" 6b7e8af57bd56f21f996e440a8847a6ebd39587e di davide modificate qualcosa (css e javascript compresi) aprite una issue con label da verificare per tale file.
-# Progetto Tecnologie Web
+# Project for the Web Tecnology course: <http://docenti.math.unipd.it/gaggi/tecweb/>
 
-La presente repository ha come scopo quello di raccogliere tutto il codice per il progetto di Tecnologie Web del gruppo [group_name]. 
+This repo aim to collect all the source code for the group "Le antiche credenze".
 
+## Member of the groups and roles:
 
+* Luca De Franceschi: [Linkedin, personal site here]
+	..* Configuration of working enviroment;
+	..* Configuration and maintenence of the styructure of the project;
+	..* Code of the **Perl/CGI** scripts;
+	..* Creation of template pages for the Perl/CGI scripts.
+* Michele Dal Santo: [Linkedin, personal site here]
+	..* Code of the CSS;
+	..* Code of **XHTML** for static pages.
+* Nicolò Tresoldi: [Linkedin, personal site here]
+	..* Creation of the **XML** structure for the database;
+	..* Cration of the **XMLSchema** linked to the XML files;
+	..* Test the accessibility of the public part of the site, following the **WCAG 2.0** directives;
+	..* Validation of the XHTML code following the W3C standards;
+	..* Validation of the XML code following the W3C standards;
+	..* Validation of the CSS code following the W3C standards.
+* Davide Quaglio: [Linkedin, personal site here]
+	..* Creation of the **XHTML** pages for the private part of the site;
+	..* Test the accessibility of the private part of the site, following the **WCAG 2.0** directives;
+	..* Code of the **javascript** scripts.
 
-## Stato del progetto
+## Project status
 
-Version: 0.1.4
+Version: 1.0.1
 
-* Created index.html;
-* Created screen.css;
-* Created smartphone.css;
-* Created tablet.css;
-* Created print.css.
+* Source code complete;
+* Paper complete (Italian);
+* Test complete;
+* Valutation 26/30.
 
-## Link esterni per il progetto
+## External links
 
-* Diagrammi su lucidchart: <https://www.lucidchart.com/documents#docs?folder_id=11336797&browser=icon&sort=saved-desc>
-* Cartella Google Drive condivisa: <https://drive.google.com/folderview?id=0B97Gv3WWQrq4aXJxOE82OFBhNFU&usp=sharing>
+* Lucidchart diagrams (**UML**): <https://www.lucidchart.com/documents#docs?folder_id=11336797&browser=icon&sort=saved-desc>
 
-* Vecchio sito levecchiecredenze: <http://www.levecchiecredenze.it>
-* Sito web del docente: <http://docenti.math.unipd.it/gaggi/tecweb/>
+* Old site "levecchiecredenze": <http://www.levecchiecredenze.it>
+* Professor's site: <http://docenti.math.unipd.it/gaggi/tecweb/>
 
-## Standard e riferimenti
+## Standard
 
 * Standarx XHtml: <http://www.w3.org/TR/xhtml1/>
 * Standard CSS2: <http://www.w3.org/TR/CSS2/>
@@ -32,26 +48,20 @@ Version: 0.1.4
 * Standard XSLT1.0: <http://www.w3.org/TR/xslt>
 * Standard XPath2.0: <http://www.w3.org/TR/xslt>
 * Tutorial XMLSchema: <http://www.w3schools.com/schema/default.asp>
-* Riferimento alla grammatica DTD: <http://www.w3schools.com/xml/xml_dtd.asp>
+* DTD grammar: <http://www.w3schools.com/xml/xml_dtd.asp>
 * Javascript reference: <http://www.w3schools.com/jsref/>
-* Sito di riferimento Perl: <http://www.perl.org/>
-* Gestore di moduli CPAN: <http://www.cpan.org/>
-* Modulo CGI: <http://search.cpan.org/~markstos/CGI.pm-3.64/lib/CGI.pm>
-* Modulo XML::LibXML: <http://search.cpan.org/~shlomif/XML-LibXML-2.0108/LibXML.pod>
+* Perl: <http://www.perl.org/>
+* CPAN modules management: <http://www.cpan.org/>
+* CGI Module: <http://search.cpan.org/~markstos/CGI.pm-3.64/lib/CGI.pm>
+* XML::LibXML Module: <http://search.cpan.org/~shlomif/XML-LibXML-2.0108/LibXML.pod>
 
-## Vincoli tecnici
+## Technical constrain
 
-* Il sito web dev'essere accesssibile e conforme allo standard XHTML Strict;
-* Deve tenere una netta separazione tra struttura, presentazione e comportamento;
-* La base di dati di riferimento deve essere su file xml;
-* Il linguaggio per generare pagine dinamiche dev'essere il linguaggio Perl;
-* Bisogna mettere a disposizione almeno tre tipologie di operazioni dinamiche:
-  * Inserimento di dati;
-  * Estrazione di dati;
-  * Modifica di dati;
-
-## Programmi e tool da utilizzare
-
-Fondamentalmente ci sarà da scrivere codice e lavorare su alcune immagini. Per le immagini è un discorso libero e da fare a parte. Per quanto riguarda il codice possiamo usare qualsiasi editor di testo che preferiamo, è indifferente. L'unico strumento veramente utile al momento è il validatore online del W3C. Sconsiglierei assolutamente di utilizzare programmi WYSWYG tipo Dreamweaver. 
-Per quanto riguarda Perl avremo bisogno dell'installazione di quest'ultimo e di un server apache in grado di interpretare questi script. Inoltre avremo bisogno di CPAN per il caricamento dei diversi moduli di Perl. Per quanto riguarda javascript ci possiamo avvalere di tutte le librerie che vogliamo (jQuery, Prototype, ...), purchè non compromettano l'accessibilità generale del sito. Ricordo che non è importante la parte javascript, servirà solo per alcune cose. 
-Come sistema operativo di riferimento possiamo usare quello che preferiamo ma quando il sito inizierà ad essere dinamico dovremo per forza affidarci a linux, in quanto Perl è molto difficile da usare in ambiente Windows.
+* The web site must be accessible [WCAG 2.0 standard] and follow the XHTML Strict standard;
+* The web site must separate structure, presentation and behaviour;
+* The database must be based on xml;
+* The language for generating dynamic pages must be Perl;
+* The web site must provide at least three interactive operation:
+  ..* Input from users;
+  ..* Data extraction;
+  ..* Data manipulation.
