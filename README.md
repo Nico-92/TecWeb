@@ -13,7 +13,7 @@ This repo aim to collect all the source code for the group "Le antiche credenze"
 * Michele Dal Santo: 
 	* Code of the CSS;
 	* Code of **XHTML** for static pages.
-* Nicolò Tresoldi: <https://www.linkedin.com/pub/nicol%C3%B2-tresoldi/33/aba/738>
+* Nicolò Tresoldi: <https://www.linkedin.com/in/nicolotresoldi>
 	* Creation of the **XML** structure for the database;
 	* Cration of the **XMLSchema** linked to the XML files;
 	* Test the accessibility of the public part of the site, following the **WCAG 2.0** directives;
